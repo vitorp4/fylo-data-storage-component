@@ -173,7 +173,7 @@ footer a {
   color: #fff;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   body {
     background-image: url(images/bg-mobile.png);
     background-size: cover;
@@ -202,7 +202,7 @@ footer a {
   }
 
   .space-left::before {
-    opacity: 0;
+    display: none;
   }
 
   .storage-card {
